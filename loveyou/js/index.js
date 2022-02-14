@@ -8,6 +8,13 @@ $("#login-button").click(function (event) {
     setTimeout(function () {
       location.href = "1.html";
     }, 2000);
+  } else if (userName == "曹焱") {
+    event.preventDefault();
+    $("form").fadeOut(500);
+    $(".wrapper").addClass("form-success");
+    setTimeout(function () {
+      location.href = "0.html";
+    }, 2000);
   } else {
     alert("Wrong Password");
   }
