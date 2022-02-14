@@ -13,7 +13,7 @@ $("#login-button").click(function (event) {
     $("form").fadeOut(500);
     $(".wrapper").addClass("form-success");
     setTimeout(function () {
-      location.href = "0.html";
+      alert("曹焱，出去。这里不是给你看的!!!");
     }, 2000);
   } else {
     alert("Wrong Password");
